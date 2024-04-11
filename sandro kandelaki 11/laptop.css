@@ -1,0 +1,20 @@
+@media(max-width: 1171px) {
+
+    .container{
+        padding-inline: 11px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 80px 392px 320px;
+        grid-template-areas: "HEADER HEADER HEADER HEADER HEADER HEADER" 
+                             "SECTION1 SECTION1 SECTION1 SECTION2 SECTION2 SECTION2"
+                            "CARD1 CARD1 CARD2 CARD2 CARD3 CARD3";
+    
+    
+    }
+
+    .none1171 {
+        display: none;
+    }
+
+
+}
+
